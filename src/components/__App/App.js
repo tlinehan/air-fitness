@@ -12,6 +12,14 @@ const AppContainer = styled.div`
 	max-width: 1280px;
 	height: 100vh;
 	background: #c6def2;
+	background-image: radial-gradient(
+		circle,
+		white,
+		#c6def2,
+		#c6def2,
+		white,
+		white
+	);
 	margin: 0 auto;
 `;
 

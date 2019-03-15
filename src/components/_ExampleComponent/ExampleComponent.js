@@ -3,11 +3,16 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+// Styles
+import { ExampleStyle } from '../../styles';
+
 class ExampleComponent extends Component {
 	render() {
 		return (
 			<ExampleComponentContainer>
-				<StyledLink to="/">Hi</StyledLink>
+				<ExampleStyle>
+					<StyledLink to="/">Let's begin.</StyledLink>
+				</ExampleStyle>
 			</ExampleComponentContainer>
 		);
 	}
@@ -15,6 +20,7 @@ class ExampleComponent extends Component {
 
 export default ExampleComponent;
 
+// Local styles
 const ExampleComponentContainer = styled.div`
 	display: flex;
 	justify-content: center;
