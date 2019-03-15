@@ -15,7 +15,7 @@ const AppContainer = styled.div`
 	background-image: radial-gradient(
 		circle,
 		white,
-		#c6def2,
+		#97c3e7,
 		#c6def2,
 		white,
 		white
